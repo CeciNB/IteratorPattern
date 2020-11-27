@@ -4,17 +4,17 @@ import java.util.ArrayList;
 
 public class SuperhelteContainer implements Container{
 
-    private ArrayList<Superhelte> superhelte;
+    private ArrayList<Superhelt> superhelte;
 
-    public SuperhelteContainer(ArrayList<Superhelte> superhelte) {
+    public SuperhelteContainer(ArrayList<Superhelt> superhelte) {
         this.superhelte = superhelte;
     }
 
-    public ArrayList<Superhelte> getSuperhelte() {
+    public ArrayList<Superhelt> getSuperhelte() {
         return superhelte;
     }
 
-    public void setSuperhelte(ArrayList<Superhelte> superhelte) {
+    public void setSuperhelte(ArrayList<Superhelt> superhelte) {
         this.superhelte = superhelte;
     }
 

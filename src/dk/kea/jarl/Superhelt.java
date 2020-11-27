@@ -1,18 +1,18 @@
 package dk.kea.jarl;
 
-public class Superhelte {
+public class Superhelt {
 
     private String name;
     private String alias;
     private int deathCount;
 
-    public Superhelte(String name, String alias, int deathCount) {
+    public Superhelt(String name, String alias, int deathCount) {
         this.name = name;
         this.alias = alias;
         this.deathCount = deathCount;
     }
 
-    public Superhelte() {
+    public Superhelt() {
     }
 
     public String getName() {
