@@ -2,6 +2,6 @@ package dk.kea.java;
 
 import java.util.Iterator;
 
-public interface Container {
-    public Iterator getIterator();
+public interface Container<T> {
+    public Iterator<T> getIterator();
 }

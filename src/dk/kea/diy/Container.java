@@ -1,6 +1,6 @@
 package dk.kea.diy;
 
-public interface Container {
+public interface Container<T> {
 
-    public Iterator getIterator();
+    public Iterator<T> getIterator();
 }

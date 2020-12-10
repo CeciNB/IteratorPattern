@@ -2,7 +2,7 @@ package dk.kea.diy;
 
 import java.util.ArrayList;
 
-public class SuperhelteContainer implements Container{
+public class SuperhelteContainer implements Container<Superhelt>{
 
     private ArrayList<Superhelt> superhelte;
 
@@ -19,7 +19,7 @@ public class SuperhelteContainer implements Container{
     }
 
     @Override
-    public Iterator getIterator() {
+    public Iterator<Superhelt> getIterator() {
         return new SuperhelteIterator(this);
     }
 
