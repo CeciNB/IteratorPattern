@@ -1,8 +1,8 @@
 package dk.kea.diy;
 
-public interface Iterator {
+public interface Iterator<T> {
 
     public boolean hasNext();
-    public Object next();
+    public T next();
 
 }

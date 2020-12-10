@@ -1,6 +1,6 @@
 package dk.kea.diy;
 
-public class SuperhelteIterator implements Iterator{
+public class SuperhelteIterator implements Iterator<Superhelt>{
 
     private SuperhelteContainer superhelteContainer;
     private int iterateState;
@@ -18,7 +18,7 @@ public class SuperhelteIterator implements Iterator{
     }
 
     @Override
-    public Object next() {
+    public Superhelt next() {
         if(this.hasNext()) {
             return superhelteContainer.getSuperhelte().get(iterateState++);
         }
