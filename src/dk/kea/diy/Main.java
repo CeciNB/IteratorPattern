@@ -14,7 +14,7 @@ public class Main {
 
         SuperhelteContainer superhelteContainer = new SuperhelteContainer(superhelte);
 
-        Iterator superIterator = superhelteContainer.getIterator();
+        Iterator<Superhelt> superIterator = superhelteContainer.getIterator();
 
         while(superIterator.hasNext()){
             System.out.println("Superhelt: " + superIterator.next());
