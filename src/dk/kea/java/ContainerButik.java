@@ -3,7 +3,7 @@ package dk.kea.java;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class ContainerButik implements Container {
+public class ContainerButik implements Container<Superhelt> {
 
     private HashMap<Superhelt,Integer> superhelte;
 
@@ -28,7 +28,7 @@ public class ContainerButik implements Container {
     }
 
     @Override
-    public Iterator getIterator() {
+    public Iterator<Superhelt> getIterator() {
         return superhelte.keySet().iterator();
     }
 }
