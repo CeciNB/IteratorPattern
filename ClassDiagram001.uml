@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>dk.kea.jarl</OriginalElement>
-  <nodes>
-    <node x="0.0" y="126.0">dk.kea.jarl.SuperhelteIterator</node>
-    <node x="97.5" y="270.0">dk.kea.jarl.Container</node>
-    <node x="70.0" y="0.0">dk.kea.jarl.Iterator</node>
-    <node x="368.0" y="270.0">dk.kea.jarl.Superhelt</node>
-    <node x="0.0" y="374.0">dk.kea.jarl.SuperhelteContainer</node>
-    <node x="0.0" y="518.0">dk.kea.jarl.Main</node>
-  </nodes>
+  <OriginalElement />
+  <nodes />
   <notes />
-  <edges>
-    <edge source="dk.kea.jarl.SuperhelteIterator" target="dk.kea.jarl.Iterator">
-      <point x="0.0" y="-49.5" />
-      <point x="0.0" y="38.0" />
-    </edge>
-    <edge source="dk.kea.jarl.SuperhelteContainer" target="dk.kea.jarl.Container">
-      <point x="0.0" y="-49.5" />
-      <point x="0.0" y="27.0" />
-    </edge>
-  </edges>
+  <edges />
   <settings layout="Hierarchic Group" zoom="1.0" x="298.0" y="286.0" />
-  <SelectedNodes>
-    <node>dk.kea.jarl.SuperhelteIterator</node>
-  </SelectedNodes>
-  <Categories>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
-    <Category>Properties</Category>
-  </Categories>
+  <SelectedNodes />
+  <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

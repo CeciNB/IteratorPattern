@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>dk.kea.java</OriginalElement>
+  <nodes>
+    <node x="256.0" y="104.0">dk.kea.java.ContainerButik</node>
+    <node x="0.0" y="104.0">dk.kea.java.ContainerOnlineShop</node>
+    <node x="183.0" y="0.0">dk.kea.java.Container</node>
+    <node x="273.0" y="248.0">dk.kea.java.Main</node>
+    <node x="0.0" y="248.0">dk.kea.java.Superhelt</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dk.kea.java.ContainerButik" target="dk.kea.java.Container">
+      <point x="0.0" y="-49.5" />
+      <point x="401.0" y="79.0" />
+      <point x="297.75" y="79.0" />
+      <point x="38.25" y="27.0" />
+    </edge>
+    <edge source="dk.kea.java.ContainerOnlineShop" target="dk.kea.java.Container">
+      <point x="0.0" y="-49.5" />
+      <point x="118.0" y="79.0" />
+      <point x="221.25" y="79.0" />
+      <point x="-38.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="273.0" y="207.0" />
+  <SelectedNodes>
+    <node>dk.kea.java.Container</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
