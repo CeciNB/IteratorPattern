@@ -7,8 +7,8 @@ public class Main{
     public static void main(String[] args) {
         ContainerOnlineShop onlineShop = new ContainerOnlineShop();
         ContainerButik butik = new ContainerButik();
-        Iterator listIterator = onlineShop.getIterator();
-        Iterator mapIterator = butik.getIterator();
+        Iterator<Superhelt> listIterator = onlineShop.getIterator();
+        Iterator<Superhelt> mapIterator = butik.getIterator();
 
         System.out.println("ArrayList");
         while (listIterator.hasNext()){
