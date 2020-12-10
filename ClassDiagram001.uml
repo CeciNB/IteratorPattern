@@ -6,8 +6,8 @@
     <node x="0.0" y="126.0">dk.kea.jarl.SuperhelteIterator</node>
     <node x="97.5" y="270.0">dk.kea.jarl.Container</node>
     <node x="70.0" y="0.0">dk.kea.jarl.Iterator</node>
-    <node x="0.0" y="374.0">dk.kea.jarl.SuperhelteContainer</node>
     <node x="368.0" y="270.0">dk.kea.jarl.Superhelt</node>
+    <node x="0.0" y="374.0">dk.kea.jarl.SuperhelteContainer</node>
     <node x="0.0" y="518.0">dk.kea.jarl.Main</node>
   </nodes>
   <notes />
@@ -24,7 +24,6 @@
   <settings layout="Hierarchic Group" zoom="1.0" x="298.0" y="286.0" />
   <SelectedNodes>
     <node>dk.kea.jarl.SuperhelteIterator</node>
-    <node>dk.kea.jarl.Iterator</node>
   </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>

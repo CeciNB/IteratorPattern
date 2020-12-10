@@ -1,4 +1,4 @@
-package dk.kea.vores;
+package dk.kea.diy;
 
 public class Superhelt {
 

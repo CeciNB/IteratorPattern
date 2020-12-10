@@ -1,4 +1,4 @@
-package dk.kea.jarl;
+package dk.kea.diy;
 
 public interface Iterator {
 

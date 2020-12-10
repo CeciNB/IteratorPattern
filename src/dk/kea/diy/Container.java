@@ -1,7 +1,6 @@
-package dk.kea.vores;
-
-import java.util.Iterator;
+package dk.kea.diy;
 
 public interface Container {
+
     public Iterator getIterator();
 }

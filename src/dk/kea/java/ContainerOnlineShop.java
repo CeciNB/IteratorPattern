@@ -1,4 +1,4 @@
-package dk.kea.vores;
+package dk.kea.java;
 
 import java.util.ArrayList;
 import java.util.Iterator;

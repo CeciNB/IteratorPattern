@@ -1,4 +1,4 @@
-package dk.kea.vores;
+package dk.kea.java;
 
 import java.util.HashMap;
 import java.util.Iterator;
